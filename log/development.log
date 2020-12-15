@@ -15,3 +15,18 @@ Processing by StaticController#hello_world as HTML
 Completed 200 OK in 751ms (Views: 739.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 73.109.61.59 at 2020-12-15 22:52:43 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb (4.6ms)
+Completed 200 OK in 35ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 73.109.61.59 at 2020-12-15 22:52:51 +0000
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.html.erb within layouts/application
+  Rendered static/hello_world.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 389ms (Views: 387.4ms | ActiveRecord: 0.0ms)
+
+
